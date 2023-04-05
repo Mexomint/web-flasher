@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
-
-
 <body>
-    <h1>Sample project for demoing ESP Web Tools</h1>
+
+    <h1 style="font-family:verdana">Project-Aiolos Test ESP32 Flasher <br> Made by Maximin Ebner</h1>
 
     <div id="main" style="display: none;">
 
-        <br>
+        
         <script
             type="module"
             src="https://unpkg.com/esp-web-tools@7.3.1/dist/web/install-button.js?module">
         </script>
+        
         <esp-web-install-button id="installButton" manifest="webflash/manifest.json"></esp-web-install-button>
-        <br>
-        <span>NOTE: Make sure to close anything using your devices com port (e.g. Serial monitor)</span>
+        
+        
     </div>
+    
     <div id="notSupported" style="display: none;">
-        Your browser does not support the Web Serial API. Try Chrome
+        Your browser does not support the Web Serial API. Try Google Chrome
     </div>
     
 
@@ -32,5 +33,4 @@
     </script>
 
 </body>
-
 </html>
