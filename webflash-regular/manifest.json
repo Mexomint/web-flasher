@@ -1,5 +1,5 @@
 {
-    "name": "ESP Web Tool Demo",
+    "name": "ESP32 - Real Project",
     "new_install_prompt_erase": true,
     "builds": [
       {
@@ -8,13 +8,8 @@
           { "path": "bootloader.bin", "offset": 4096 },
           { "path": "firmware.bin", "offset": 65536 },
           { "path": "partitions.bin", "offset": 32768 }
-        ]
-      },
-      {
-        "chipFamily": "ESP8266",
-        "parts": [
-          { "path": "esp8266/SerialHelloWorld.ino.bin", "offset": 0 }
-        ]
-      }
+        	     ]
+       }
+
     ]
   }
